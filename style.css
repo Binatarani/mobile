@@ -12,8 +12,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400; 
     font-size: 17px;
-    background-color: rgb(234, 216, 230);
-    color: #646464; 
+    color: #8a7a84; 
     line-height: 1.7; 
 }
 h1,
@@ -89,7 +88,7 @@ h4{
 font-size: 288px;
 font-weight: 700;
 background-image: url(assets/img/text-bg.png);
--webkit-background-clip: text;
+-webkit-background-clip:text;
 color: transparent;
 background-size: cover;
 text-align: center;
@@ -100,6 +99,7 @@ text-align: center;
 */
 .header-area{
     padding: 32px 0;
+    background-color: darkgrey;
 }
 .header-area .nav-item{
     margin-left: 30px;
@@ -162,6 +162,7 @@ service area css
 .service-area{
     padding: 80px 0;
     position: relative;
+    background-color: rgb(234, 216, 230);
 }
 .all-services{
     margin-top: 60px;
@@ -197,7 +198,7 @@ service area css
     cursor: pointer;
 }
 .single-service:hover{
-    background-color: #8967bd;
+    background-color: #8a7a84;
     color: #fff;
 }
 .single-service:hover h3{
@@ -218,6 +219,7 @@ About area css
 .success-area{
     padding: 100px 0;
     position: relative;
+    background-color: rgb(234, 216, 230);
 }
 .success-area .theme-button{
     margin-top: 35px;
@@ -245,7 +247,7 @@ Work area css
     color: #fff;
 }
 .single-work-text{
-    background-color: #cf158b;
+    background-color: #8a7a84;
     box-shadow: 0px 13px 16px rgba(0, 0, 0, 0.1);
     border-radius: 40px 0;
     width: 200px;
@@ -309,6 +311,7 @@ Testimonial area css
 .testimonial-area{
     padding: 100px 0;
     position: relative;
+    background-color: rgb(234, 216, 230);
 }
 .all-testimonial{
     position: relative;
@@ -334,7 +337,7 @@ Testimonial area css
     left: 65px;
     background-color: #bdd6af;
     box-shadow: 5px 5px 15px 5px
-    rgba(66, 96, 84, 0.15);
+    rgba(235, 237, 236, 0.15);
     border-radius: 70px 0px;
     z-index: -1;
 }
@@ -386,7 +389,6 @@ Testimonial area css
     blog area css
     */
     .blog-area{
-        background-color: #f8f8f8;
         padding: 100px 0;
     }
     .blog-area .section-heading{
@@ -399,7 +401,7 @@ Testimonial area css
     Singup area
     */
     .singup-area{
-        padding: 80px 0;
+        padding: 100px 0;
     }
     .singup-text h3{
         font-size: 48px;
@@ -444,7 +446,7 @@ Footer area css
 */
 .footer-area{
     padding: 80px 0;
-    background-color: #f3ebf1;
+    background-color: rgb(234, 216, 230);
 }
 .footer-top{
     padding-top: 90px 0; 
@@ -727,6 +729,7 @@ Footer area css
     */
     .singup-area{
         padding: 80px 0;
+        margin-bottom: 0;
     }
     .singup-area .signup-text h3{
         font-size: 45px;
@@ -746,7 +749,7 @@ Footer area css
     */
      .footer-area{
         padding: 50px 0;
-        padding-top: 60px;
+        padding-top: 40px;
         margin-bottom: 0;
     }
      .footer-top{
